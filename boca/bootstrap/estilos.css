@@ -1,0 +1,84 @@
+html, body{
+  height:100%;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-fluid
+{
+	background-image: url(../fondo/fondo.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.pagina
+{
+	border-style: solid;
+	border-color: black;
+	height: 100%;
+	width: 100%;
+	padding: 1em;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+.bg-warning
+{
+	padding: 10px;
+	color: blue;
+}
+
+.titulo
+{
+	padding: 10px;
+	display: inline-block;
+	background-color: black;
+	color: #FEC106;	
+}
+
+.texto
+{
+	padding: 2px;
+	display: inline-block;
+	background-color: rgba(0,0,0,1);
+}
+
+
+.imagen
+{
+	margin: 5px;
+}
+
+.imagen-1
+{
+	float: right;	
+}
+
+.imagen-2
+{
+	float: left;
+}
+
+.foto
+{
+	padding: 15px;
+}
+
+.formulario
+{
+	background-color: black;
+	text-align: left;
+	padding: 1em;
+}
+
+#exito
+{
+	stroke: inline-block;
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+	border-style: solid;
+	border-color: white;
+}
+
+	
